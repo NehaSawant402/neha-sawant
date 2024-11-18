@@ -1,0 +1,4 @@
+From Python:3.9
+WORKDIR /cloud
+COPY test.py /cloud/test.py
+CMD ["Python" , "test.py"]
